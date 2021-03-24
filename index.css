@@ -1,0 +1,142 @@
+body{
+  font-family: 'Della Respira', serif;
+  background: black url(https://i.pinimg.com/originals/db/fa/a2/dbfaa26f0bc7356db4218d793aba45af.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  text-shadow: 0 1px 0 #383535;
+}
+.container{
+  transition: 0.7s;
+}
+.blur{
+  position: fixed;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,.7);
+  z-index:-1;
+}
+p{
+  font-size:20px;
+}
+ul{
+  font-size:20px;
+}
+.q{
+  min-height: 45em;
+}
+.info{
+  text-align: center;
+  position: relative;
+  top: 5em;
+}
+.icon{
+  width:2em;
+}
+.radial-navbar{
+position: relative;
+top:11em;
+}
+.toggle{
+  background-color: #F5F5F5;
+  border-radius: 50%;
+  width:4em;
+  height:4em;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1;
+  position: absolute;
+  top:6em;
+  left:0;
+  right:0;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, .4);
+}
+.toggle:hover{
+  width:4.2em;
+  height: 4.2em;
+  transition: 0.2s;
+}
+.list{
+  background-color: #FDF4E3;
+  border-radius: 50%;
+  width:16em;
+  height:16em;
+  text-align: center;
+  transition: 0.8s;
+  position: relative;
+  transform: scale(0) rotate(-90deg);
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+.list a{
+  position: absolute;
+}
+.list a:hover{
+  transform:scale(1.1);
+  transition: 0.2s;
+}
+.list a:nth-child(1){
+  top:1.5em;
+  left:7em;
+}
+.list a:nth-child(2){
+  right:3em;
+  top: 3em;
+}
+.list a:nth-child(3){
+  top:7em;
+  right:1.5em;
+}
+.list a:nth-child(4){
+  right:3em;
+  bottom: 3em;
+}
+.list a:nth-child(5){
+  bottom:1.5em;
+  left:7em;
+}
+.list a:nth-child(6){
+  left:3em;
+  bottom: 3em;
+}
+.list a:nth-child(7){
+  top:7em;
+  left:1.5em;
+}
+.list a:nth-child(8){
+  left:3em;
+  top: 3em;
+}
+
+.inf{
+  transition: 0.7s;
+}
+
+.home{
+  position: fixed;
+  height:3em;
+  width: 3em;
+  bottom: 1em;
+  left: 0;
+  right:0;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.8s;
+}
+.home:hover{
+  height:3.3em;
+  width: 3.3em;
+  transition: .2s;
+}
+.home i{
+  color: black;
+  transform: scale(1.2);
+}
+.content{
+  margin-bottom: 10em;
+}
